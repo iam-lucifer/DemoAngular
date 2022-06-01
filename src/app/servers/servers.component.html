@@ -7,8 +7,6 @@
        class="form-control"
        [(ngModel)]="ServerName">
 
-
-
 <p>Your Server Name Is {{ServerName}}</p>
 
 <button class="btn btn-primary"
@@ -17,11 +15,10 @@
         Add Server
 </button>
 
-<button  class="  btn btn-danger "
-        [disabled]=" ServerName === '' ">
+<button  class=" btn btn-danger "
+        [disabled]=" ServerName === '' "
+        (click)=" ServerName= '' ">
         Clear Server Name
 </button>
 
 <p>{{ServerCreateStatus}}</p>
-
-

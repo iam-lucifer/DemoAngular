@@ -5,12 +5,11 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './servers.component.html',
   styleUrls: ['./servers.component.css']
 })
+
 export class ServersComponent implements OnInit {
   AllowNewServer= false;
   ServerCreateStatus= 'No Server Was Crated!';
   ServerName='TestServer'
-
-
 
   constructor() {
     setTimeout(() => {

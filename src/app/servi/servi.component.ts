@@ -15,20 +15,10 @@ export class ServiComponent implements OnInit {
     },2000)
   }
 
-  // ServerAlerttxt(){
-  //   this.="Server Is Running Perfectly";
-  // }
-
   ngOnInit(): void {
   }
-
 
   onServerTxt(){
     this.ServerTxt='Server is Running ';
   }
-
-
-
-
-
 }
